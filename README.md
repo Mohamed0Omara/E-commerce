@@ -52,25 +52,3 @@ For injecting dependencies.
 
 [Coil](https://coil-kt.github.io/coil/compose/) :
 To load image asynchronously.
-
-## Navigation structure
-
-This app uses a nested navigation structure with multiple NavGraphs to manage different sections of the app efficiently. Each section, such as authentication, product listing, and order management, has its own NavGraph, allowing for clear separation of concerns and modular navigation flows.
-
-If you have any suggestions for improving this navigation structure or would like to contribute, feel free to share your ideas.
-
-![Screenshot 2024-08-31 204803](https://github.com/user-attachments/assets/2a1b3ad4-874d-4576-aad0-89363ee4d3e6)
-
-## Installation
-
-Simple clone this app and open in Android Studio.
-
-### Firebase Integration
-
-Follow these steps to link Firebase to this app for authentication
-and storing cart and order data using Realtime Database:
-
-1. Set up Firebase in your project by following the official Firebase setup guide.
-2. Download the google-services.json file from your Firebase project.
-3. Place the google-services.json file in the app/ directory of your project.
-
